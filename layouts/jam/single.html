@@ -3,6 +3,15 @@
 
         <article>
             <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
+
+
+            <div style="font-size: 80%;">
+                <a href="https://github.com/invider/collider.jam">source</a>
+                | <a href="../help/">man</a>
+                | <a href="../data/jamming-card.pdf">card</a>
+                | <a href="https://discord.gg/kxNnHc2">discord</a>
+            </div>
+
             <hr>
 
             {{- if .Params.toc }}
@@ -24,6 +33,12 @@
         </article>
 
         <hr />
+
+        <div style="font-size: 80%;">
+            <a href="https://github.com/invider/collider.jam">source</a>
+            | <a href="../help/">man</a>
+            | <a href="../data/jamming-card.pdf">card</a>
+        </div>
 
     </main>
 {{ end }}
