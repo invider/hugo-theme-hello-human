@@ -4,12 +4,6 @@
             <p align="center"><img src="img/dude.png"></p>
             <h1>{{ .Site.Title }}</h1>
 
-            <p style="font-size:135%; margin-bottom: 40px;">
-                Invader at <a href="http://invasionwave.com">
-                    Invasion Wave</a>.<br>
-                I'm pixelating reality by mixing code, vibes and pixels.
-            </p>
-
             {{- with .Site.Params.social }}
                 <div>
                     {{ partial "social-icons.html" . }}
