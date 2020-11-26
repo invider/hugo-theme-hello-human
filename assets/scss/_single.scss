@@ -4,6 +4,20 @@
   text-align: left;
   padding: 20px;
   margin: 20px auto;
+  font-size: 150%;
+
+  @media #{$media-size-phone} {
+    font-size: 1.2rem;
+    code {
+        font-size: 1rem;
+    }
+  }
+  @media #{$media-size-tablet} {
+    font-size: 1.2rem;
+    code {
+        font-size: 1rem;
+    }
+  }
 
   @media #{$media-size-tablet} {
     max-width: 600px;

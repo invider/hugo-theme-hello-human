@@ -16,6 +16,13 @@
 
   &__text {
     font-size: 1.125rem;
+    @media #{$media-size-phone} {
+        font-size: 0.7rem;
+    }
+    @media #{$media-size-tablet} {
+        font-size: 0.7rem;
+    }
+        
   }
 
   &__cursor {

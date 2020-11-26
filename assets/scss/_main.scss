@@ -31,7 +31,10 @@ body {
   flex-direction: column;
 
   @media #{$media-size-phone} {
-    font-size: 1rem;
+    font-size: 0.8rem;
+  }
+  @media #{$media-size-tablet} {
+    font-size: 0.8rem;
   }
 
   &.dark-theme {
